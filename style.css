@@ -1,0 +1,49 @@
+body {
+  background-color: #eceef1;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  justify-content: flex-end;
+}
+
+#lock-icon {
+  width: 12px;
+  height: 12px;
+}
+
+#logo-section {
+  background-color: green;
+  text-align: center;
+}
+
+#nav {
+  background-color: yellow;
+  text-align: center;
+}
+
+#form-section {
+  background-color: violet;
+  text-align: center;
+}
+
+#footer {
+  background-color: blue;
+  text-align: center;
+}
+
+.button {
+  background-color: #0077c5;
+  color: #fff;
+  font-size: small;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: black;
+  border-width: 1px;
+  height: 35px;
+}
