@@ -1,11 +1,11 @@
 body {
   background-color: #eceef1;
+  /* background-color: #e2e2e2; */
 }
 
 #header {
   display: flex;
   flex-direction: row;
-  background-color: red;
   padding-right: 2em;
   margin-bottom: 2em;
   justify-content: flex-end;
@@ -17,17 +17,15 @@ body {
 }
 
 #logo-section {
-  background-color: green;
   text-align: center;
 }
 
 #nav {
-  background-color: yellow;
   text-align: center;
 }
 
 #form-section {
-  background-color: violet;
+  background-color: white;
   text-align: center;
 }
 
