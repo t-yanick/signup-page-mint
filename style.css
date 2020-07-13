@@ -1,0 +1,156 @@
+body {
+  background-color: #eceef1;
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  justify-content: flex-end;
+  font-size: small;
+}
+
+#lock-icon {
+  width: 12px;
+  height: 12px;
+}
+
+#logo-section {
+  text-align: center;
+}
+
+#nav {
+  text-align: center;
+}
+
+.form-section {
+  width: 380px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.password-unlock-icon {
+  background-image: url(./images/unlock-icon.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
+#footer {
+  text-align: center;
+  font-size: small;
+  margin-top: 40px;
+}
+
+.button {
+  background-color: #0077c5;
+  color: #fff;
+  font-size: small;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: black;
+  border-width: 1px;
+  height: 35px;
+  margin-left: 7px;
+}
+
+.no-margins {
+  margin: 1px;
+}
+
+.fieldset {
+  border-style: none;
+  text-align: left;
+  margin: 20px;
+}
+
+.fieldset p {
+  font-size: smaller;
+}
+
+.main-border-style {
+  border-width: 1px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.form-input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.input-label {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 45px;
+  display: block;
+  margin: 0 0 0 2px;
+}
+
+#submit-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.terms-conditions {
+  font-style: italic;
+  font-size: smaller;
+  margin: 3px;
+}
+
+.recaptcha-div {
+  background-color: #eceef1;
+  padding: 10px 0 10px 0;
+}
+
+.recaptcha-text {
+  font-size: x-small;
+}
+
+.black-hyper-link {
+  color: black;
+}
+
+.privacy-settings-button {
+  background-color: #68696e;
+  color: #fff;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: black;
+  border-width: 1px;
+  height: 45px;
+  margin: 5px;
+  position: fixed;
+  top: 90vh;
+  left: 90vw;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
