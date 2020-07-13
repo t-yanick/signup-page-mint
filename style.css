@@ -1,6 +1,7 @@
 body {
   background-color: #eceef1;
-  /* background-color: #e2e2e2; */
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 #header {
@@ -9,6 +10,7 @@ body {
   padding-right: 2em;
   margin-bottom: 2em;
   justify-content: flex-end;
+  font-size: small;
 }
 
 #lock-icon {
@@ -22,9 +24,6 @@ body {
 
 #nav {
   text-align: center;
-}
-
-#form-section {
 }
 
 .form {
@@ -49,8 +48,18 @@ body {
   border-color: black;
   border-width: 1px;
   height: 35px;
+  margin-left: 7px;
+}
+
+.no-margins {
+  margin: 1px;
 }
 
 h2 {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
 }
