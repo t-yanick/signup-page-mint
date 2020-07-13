@@ -95,10 +95,10 @@ body {
   height: 15px;
 }
 
-#terms-conditions {
+.terms-conditions {
   font-style: italic;
-  font-size: small;
-  color: aqua;
+  font-size: smaller;
+  margin: 3px;
 }
 
 h2 {
