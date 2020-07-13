@@ -27,12 +27,11 @@ body {
 }
 
 .form-section {
-  width: 365px;
+  width: 380px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 20px;
 }
 
 #footer {
@@ -60,6 +59,7 @@ body {
 .fieldset {
   border-style: none;
   text-align: left;
+  margin: 10px;
 }
 
 .fieldset p {
@@ -99,6 +99,15 @@ body {
   font-style: italic;
   font-size: smaller;
   margin: 3px;
+}
+.recaptcha-div {
+  background-color: #eceef1;
+  margin-bottom: -5px;
+  padding: 5px 0 5px 0;
+}
+
+.recaptcha-text {
+  font-size: x-small;
 }
 
 h2 {
