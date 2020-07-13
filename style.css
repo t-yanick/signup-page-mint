@@ -1,7 +1,12 @@
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family:
+  "AvenirNext",
+  Avenir,
+  "Helvetica Neue",
+  Helvetica,
+  Arial,
+  sans-serif;
 }
 
 #header {
@@ -111,6 +116,7 @@ body {
   font-size: smaller;
   margin: 3px;
 }
+
 .recaptcha-div {
   background-color: #eceef1;
   padding: 10px 0 10px 0;

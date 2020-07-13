@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mint-Clone-Signup-Page</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header id="header">
       <div>
         <p class="no-margins">Already have an Intuit account?</p>
-        <a href="http://">I forgot my User ID or Password</a>
+        <a href="https://accounts.intuit.com/signup.html"
+          >I forgot my User ID or Password</a
+        >
       </div>
-      <button class="button">
+      <button class="button" type="button">
         <img id="lock-icon" src="./images/lock-icon.png" alt="lock-icon" />
 
         Sign In
@@ -23,7 +25,7 @@
       <img
         src="./images/intuit-logo.png"
         alt="mint-logo"
-        width="120px"
+        width="120"
         height="35"
       />
     </section>
@@ -51,14 +53,14 @@
         target="blank"
         >Learn more</a
       >
-      <form action="" method="post">
+      <form action="#" method="post">
         <fieldset class="fieldset">
           <div class="input-label">
             <label for="email">Email address</label>
             <input
               class="form-input main-border-style"
               type="email"
-              name=""
+              name="email"
               id="email"
             />
           </div>
@@ -67,8 +69,8 @@
             <input
               class="form-input main-border-style"
               type="tel"
-              name=""
-              id="email"
+              name="tel"
+              id="tel"
             />
             <p class="no-margins">
               Standard call, messaging or data rates may apply
@@ -79,12 +81,12 @@
             <input
               class="form-input main-border-style password-unlock-icon"
               type="password"
-              name=""
-              id="email"
+              name="password"
+              id="password"
             />
           </div>
           <div class="input-label">
-            <button class="button submit-button" name="submit">
+            <button class="button submit-button" name="submit" type="submit">
               <img
                 id="submit-icon"
                 src="./images/lock-icon.png"
@@ -96,29 +98,40 @@
         </fieldset>
       </form>
       <div class="input-label">
-      <p class="terms-conditions">
-        By clicking Create account, you agree to our
-      </p>
-      <p class="terms-conditions">
-        <a href="http://">Terms</a> and have read and acknowledge our
-        <a href="http://">Privacy</a>
-      </p>
-      <p class="terms-conditions"><a href="http://">Statement</a>.</p>
+        <p class="terms-conditions">
+          By clicking Create account, you agree to our
+        </p>
+        <p class="terms-conditions">
+          <a href="http://">Terms</a> and have read and acknowledge our
+          <a href="http://">Privacy</a>
+        </p>
+        <p class="terms-conditions"><a href="http://">Statement</a>.</p>
+      </div>
       <div class="input-label recaptcha-div">
         <p class="recaptcha-text">
-            Invisible reCAPTCHA by Google
-            <a href="http://">Privacy Policy  </a> and
-            <a href="http://">Terms of Use</a>.
-          </p>
-
+          Invisible reCAPTCHA by Google
+          <a href="http://">Privacy Policy </a> and
+          <a href="http://">Terms of Use</a>.
+        </p>
       </div>
     </section>
-    </div>
     <footer id="footer">
-        <p class="no-margins" ><a class="black-hyper-link" href="http://">Legal</a> <a class="black-hyper-link" href="http://">Privacy</a> <a class="black-hyper-link" href="http://">Security</a></p>
-        <p class="no-margins">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-        <p class="no-margins">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      <p class="no-margins">
+        <a class="black-hyper-link" href="http://">Legal</a>
+        <a class="black-hyper-link" href="http://">Privacy</a>
+        <a class="black-hyper-link" href="http://">Security</a>
+      </p>
+      <p class="no-margins">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p class="no-margins">
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
     </footer>
-    <button class="privacy-settings-button">Privacy Settings</button>
+    <button class="privacy-settings-button" type="button">
+      Privacy Settings
+    </button>
   </body>
 </html>
