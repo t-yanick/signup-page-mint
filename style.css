@@ -26,11 +26,13 @@ body {
   text-align: center;
 }
 
-.form {
-  width: 350px;
+.form-section {
+  width: 365px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  padding: 20px;
 }
 
 #footer {
@@ -53,6 +55,31 @@ body {
 
 .no-margins {
   margin: 1px;
+}
+
+.fieldset {
+  border-style: none;
+  text-align: left;
+}
+
+.fieldset p {
+  font-size: smaller;
+}
+
+.main-border-style {
+  border-width: 1px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.form-input {
+  width: 100%;
+  height: 30px;
+}
+
+.input-label {
+  margin-top: 30px;
 }
 
 h2 {
